@@ -1,5 +1,6 @@
 # nginx-redirector
 Docker Based Nginx Redirector
+
 ##Docker Build Komutu
 ```
 sudo docker build -t nginx-redirector .        
@@ -8,3 +9,4 @@ sudo docker build -t nginx-redirector .
 ```
 sudo docker run -it --rm -d -p 8080:80 --name web nginx-redirector  
 ```
+Web uygulaması 8080 portunda çalışmaktadır.
